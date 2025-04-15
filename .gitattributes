@@ -1,2 +1,29 @@
+using System;
+
+public class Task1
+{
+    public static void Main(string[] args)
+    {
+ 
+        int studentAge;
+
+        studentAge = 20;
+
+        string studentName = "Alice";
+        
+        double studentGPA;
+
+        studentGPA = 3.75;
+
+        bool isEnrolled = true;
+
+        Console.WriteLine("Name: " + studentName);
+        Console.WriteLine("Age: " + studentAge);
+        Console.WriteLine("GPA: " + studentGPA);
+        Console.WriteLine("Enrolled: " + isEnrolled);
+    }
+}
+
+    
 # Auto detect text files and perform LF normalization
 * text=auto
